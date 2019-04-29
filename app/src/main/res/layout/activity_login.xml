@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="103dp"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/login_png"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <EditText
+        android:id="@+id/txtUName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="User Name"
+        android:backgroundTint="#807F92"
+        android:textColorHint="#D6D5E5"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:typeface="sans"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="199dp"
+        android:ems="10"
+        android:hint="Password"
+        android:backgroundTint="#807F92"
+        android:textColorHint="#D6D5E5"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:typeface="sans"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:background="#fff"
+        android:textColor="#FFFFFF"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:text="MSG here" />
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".90"
+    android:background="#292b2c"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+
+    >
+
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:layout_width="129dp"-->
+        <!--android:layout_height="112dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:src="@drawable/ico1" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:fillViewport="true"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/cName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#404040"
+                android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+                android:drawablePadding="15dp"
+                android:hint="Customer  Name"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@android:color/white"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/cAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#404040"
+                android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+                android:drawablePadding="15dp"
+                android:hint="Customer Address"
+                android:inputType="textPostalAddress"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@android:color/white"
+                android:textSize="20sp" />
+
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/cNic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#404040"
+                android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Customer NIC"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@android:color/white"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/cTp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#404040"
+                android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+                android:drawablePadding="15dp"
+                android:hint="Email"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@android:color/white"
+                android:textSize="20sp" />
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="15dp"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+
+                />
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/getStarted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="#f0f"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="Sign Up"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<TextView
+        android:id="@+id/txtViewDont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="78dp"
+        android:layout_marginBottom="10dp"
+        android:text="Already a member ?"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="205dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:text="Sign In"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textStyle="bold" />-->
+
+
+
+
+
+
+
+
+</LinearLayout >
