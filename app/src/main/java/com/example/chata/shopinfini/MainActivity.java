@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity
         boolean firstStart = pref.getBoolean("firstStart", true);
 //
         if(firstStart){
-            Intent startIntent =new Intent(getApplicationContext(),Login.class);
-            startActivity(startIntent);
-
-            Toast.makeText(this, "This is first start", Toast.LENGTH_SHORT).show();
+//            Intent startIntent =new Intent(getApplicationContext(),Login.class);
+//            startActivity(startIntent);
+//
+//            Toast.makeText(this, "This is first start", Toast.LENGTH_SHORT).show();
         }else {
             Toast.makeText(this, "Log in ok", Toast.LENGTH_SHORT).show();
         }
@@ -99,8 +99,11 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
+        if (id == R.id.nav_credits) {
+
+            Intent intentCreditSelectArea =new Intent(getApplicationContext(),CreditsSelectArea.class);
+            startActivity(intentCreditSelectArea);
+
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
